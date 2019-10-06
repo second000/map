@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    z-index: 2;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+#map {
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup {
+    border-radius: 15px;
+    display: none;
+    width: 380px;
+    height: 530px;
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+}
+
+.header {
+    padding: 15px 0 15px 20px;
+    border-radius: 15px 15px 0 0;
+    background-color: #ff8663;
+    color: #ffffff;
+    font-weight: 300;
+    height: 15px;
+}
+
+.header-img {
+    float: left;
+    width: 20px;
+}
+
+.header-address {
+    float: left;
+    height: 45px;
+    font-size: 12px;
+    width: 300px;
+}
+
+.popup-close {
+    float: left;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.reviews-container {
+    overflow: auto;
+}
+
+.popup h1 {
+    color: #ff8663;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.popup input {
+    height: 30px;
+}
+
+.popup textarea {
+    resize: none;
+    padding-top: 10px;
+}
+
+.popup input,
+    textarea {
+    padding-left: 10px;
+    margin: 10px;
+    width: 340px;
+    border: 1px solid #787878;
+    border-radius: 15px;
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.button-container {
+    text-align:right;
+    padding-right: 20px;
+}
+
+.add {
+    width: 85px;
+    height: 30px;
+    background-color: #ff8663;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.review {
+    color: #4f4f4f;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+

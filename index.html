@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы на карте</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=d5f843b0-d791-4d0a-bf59-7a2d46e1df2d&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="src/map.js" async></script>
+</head>
+<body>
+  <div id="map">
+  <div class="popup">
+      <div class="header">
+          <div class="header-img"><img src="img/point-small.png" alt=""></div>
+          <div class="header-address">Адрес</div>
+          <div class="popup-close"><img src="img/cross.png" alt=""></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="reviews-container">
+
+      </div>
+      <div class="form-container"></div>
+          <h1>ВАШ ОТЗЫВ</h1>
+          <form class="form">
+              <input type="text" class="youName" placeholder="Ваше имя"><br>
+              <input type="text" class="place" placeholder="Укажите место"><br>
+              <textarea name="review" class="text" cols="30" rows="7"
+                placeholder="Поделитесь впечатлениями"></textarea><br>
+              <div class="button-container">
+              <button class="add">Добавить</button>
+              </div>
+              </form>
+  </div>
+      <img class="logo" src="img/logo.png" alt="">
+  </div>
+
+
+</body>
+</html>
